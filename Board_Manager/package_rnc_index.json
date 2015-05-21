@@ -22,7 +22,7 @@
                   "online":"http://hashlust.com"
                },
                "boards":[
-                  { "name":"ATmega256RFR2 Xplained Pro Evaluation Kit" },
+                  { "name":"ATmega256RFR2 Xplained Pro Evaluation Kit" }
                ],
                "toolsDependencies":[
                   {
