@@ -14,7 +14,7 @@
                "architecture":"avr",
                "version":"1.0.0",
                "category":"Contributed",
-               "url":"https://github.com/RiddleAndCode/RnCAtmega256RFR2/blob/master/Board_Manager/rncatmega256rfr2.tar.bz2",
+               "url":"https://github.com/RiddleAndCode/RnCAtmega256RFR2/raw/master/Board_Manager/rncatmega256rfr2.tar.bz2",
                "archiveFileName":"rncatmega256rfr2.tar.bz2",
                "checksum":"SHA-256:B28B51D9AF0EF3D6751ECEAD086DB31930EF40F0E5EFD48DEF84D04730C508DD",
                "size":"10330",
