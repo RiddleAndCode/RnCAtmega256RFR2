@@ -1,0 +1,78 @@
+# RiddleAndCode Board Contribution Configuration
+#
+# For more information see:
+# * https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5---3rd-party-Hardware-specification
+# * https://github.com/arduino/Arduino/wiki/Arduino-Hardware-Cores-migration-guide-from-1.0-to-1.6
+#
+
+################################################################################
+####################### 256RFR2XPRO Development Board ##########################
+################################################################################
+
+256RFR2XPRO.name= 256RFR2XPRO
+256RFR2XPRO.upload.protocol=wiring
+256RFR2XPRO.upload.maximum_size=258048
+256RFR2XPRO.upload.speed=115200
+256RFR2XPRO.bootloader.low_fuses=0xe2
+256RFR2XPRO.bootloader.high_fuses=0x9a
+256RFR2XPRO.bootloader.extended_fuses=0xff
+#256RFR2XPRO.bootloader.path= mega256rfr2
+256RFR2XPRO.bootloader.file= mega256rfr2/stk500boot_v2_mega256rfr2.hex
+256RFR2XPRO.bootloader.unlock_bits=0x3F
+256RFR2XPRO.bootloader.lock_bits=0x0F
+256RFR2XPRO.build.mcu=atmega256rfr2
+256RFR2XPRO.build.f_cpu=8000000L
+256RFR2XPRO.build.core=arduino:arduino
+256RFR2XPRO.build.variant=atmega256rfr2_xplained_pro
+256RFR2XPRO.bootloader.tool=avrdude
+256RFR2XPRO.upload.tool=avrdude
+256RFR2XPRO.compiler.c.flags=-c -g -Os -w -ffunction-sections -fdata-sections -MMD --std=c99
+
+
+################################################################################
+###################### 256RFR2ZBITXPRO Development Board #######################
+################################################################################
+
+256RFR2ZBITXPRO.name= 256RFR2ZBITXPRO
+256RFR2ZBITXPRO.upload.protocol=wiring
+256RFR2ZBITXPRO.upload.maximum_size=258048
+256RFR2ZBITXPRO.upload.speed=38400
+256RFR2ZBITXPRO.bootloader.low_fuses=0xe2
+256RFR2ZBITXPRO.bootloader.high_fuses=0x9a
+256RFR2ZBITXPRO.bootloader.extended_fuses=0xff
+256RFR2ZBITXPRO.bootloader.path= mega256rfr2
+256RFR2ZBITXPRO.bootloader.file= mega256rfr2 /stk500boot_v2_zigbitextpro.hex
+256RFR2ZBITXPRO.bootloader.unlock_bits=0x3F
+256RFR2ZBITXPRO.bootloader.lock_bits=0x0F
+256RFR2ZBITXPRO.build.mcu=atmega256rfr2
+256RFR2ZBITXPRO.build.f_cpu=8000000L
+256RFR2ZBITXPRO.build.core=arduino:arduino
+256RFR2ZBITXPRO.build.variant=atmega256rfr2_zigbit_extpro
+256RFR2ZBITXPRO.bootloader.tool=avrdude
+256RFR2ZBITXPRO.upload.tool=avrdude
+256RFR2ZBITXPRO.compiler.c.flags=-c -g -Os -w -ffunction-sections -fdata-sections -MMD --std=c99
+
+################################################################################
+###################### 256RFR2ZBIT Development Board ###########################
+################################################################################
+
+256RFR2ZBIT.name= 256RFR2ZBIT
+256RFR2ZBIT.upload.protocol=wiring
+256RFR2ZBIT.upload.maximum_size=258048
+256RFR2ZBIT.upload.speed=38400
+256RFR2ZBIT.bootloader.low_fuses=0xe2
+256RFR2ZBIT.bootloader.high_fuses=0x9a
+256RFR2ZBIT.bootloader.extended_fuses=0xff
+256RFR2ZBIT.bootloader.path= mega256rfr2
+256RFR2ZBIT.bootloader.file= mega256rfr2 /stk500boot_v2_256rfr2zigbit.hex
+256RFR2ZBIT.bootloader.unlock_bits=0x3F
+256RFR2ZBIT.bootloader.lock_bits=0x0F
+256RFR2ZBIT.build.mcu=atmega256rfr2
+256RFR2ZBIT.build.f_cpu=8000000L
+256RFR2ZBIT.build.core=arduino:arduino
+256RFR2ZBIT.build.variant=atmega256rfr2_zigbit_extpro
+256RFR2ZBIT.bootloader.tool=avrdude
+256RFR2ZBIT.upload.tool=avrdude
+256RFR2ZBIT.compiler.c.flags=-c -g -Os -w -ffunction-sections -fdata-sections -MMD --std=c99
+
+
